@@ -36,6 +36,12 @@ nav {
 
 /* Responsive (fenêtres de moins de 640px) */
 
+@media (max-width: 900px) {
+  body {
+    background-color: lightblue;
+  }
+    }
+
 @media (max-width: 640px) {
   .wrapper {
     flex-direction: column; /* affichage vertical */
@@ -57,8 +63,7 @@ nav {
 /* Decoration */
 
 body {
-  margin: 0;
-  background: #999;
+  margin: 0; 
   font-family: arial, sans-serif;
 }
 header,
